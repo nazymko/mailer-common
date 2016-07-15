@@ -8,6 +8,16 @@ public class Message {
     private String[] to;
     private String message;
 
+    public String getContext() {
+        return context;
+    }
+
+    public void setContext(String context) {
+        this.context = context;
+    }
+
+    private String context;
+
     public String[] getCc() {
         return this.cc;
     }
